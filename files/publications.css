@@ -1,0 +1,32 @@
+.year-row .separator{
+    height: 1px;
+    display: flex;
+    width:100%;
+    background-color: lightgray;
+    border-radius: 1px;
+}
+
+.sizenames{
+    font-size: 20px;
+}
+
+.sizeheader{
+    font-size:  26px;
+    font-weight: 300;
+}
+
+.paper-row {
+    border: 1px solid white;
+}
+.conf-name > .text-white{
+    background-color: #1f1f1f;
+    transform: rotate(270deg);
+}
+@media screen and (max-width: 768px) {
+    .conf-name > .text-white{
+        transform: translateX(-10px) rotate(270deg);
+    }
+}
+a{
+    text-decoration: none;
+}
