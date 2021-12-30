@@ -2403,7 +2403,7 @@ textarea.form-control-lg { min-height: calc(1.5em + (1rem + 2px)); }
 
 body, html { overflow-x: hidden; }
 
-.vv-bg { background-image: url("/vasu/assets/images/vv.png"); background-size: contain; background-position: right bottom; background-repeat: no-repeat; }
+.vv-bg { background-image: url("/images/vv.png"); background-size: contain; background-position: right bottom; background-repeat: no-repeat; }
 
 .separator { height: 2px; width: 50vw; background: white; }
 
