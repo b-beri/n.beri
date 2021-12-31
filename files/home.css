@@ -276,7 +276,7 @@ progress { vertical-align: baseline; }
 
 .col-2 { flex: 0 0 auto; width: 16.66666667%; }
 
-.col-3 { flex: 0 0 auto; width: 33%; }
+.col-3 { flex: 0 0 auto; width: 25%; }
 
 .col-4 { flex: 0 0 auto; width: 33.33333333%; }
 
@@ -2414,6 +2414,11 @@ body, html { overflow-x: hidden; }
 .bi-linkedin { color: #0077b5; }
 
 .bi-twitter { color: #1da1f2; }
+
+.slow-spin {
+  -webkit-animation: fa-spin 4s infinite linear;
+  animation: fa-spin 4s infinite linear;
+}
 
 a { color: grey; text-decoration: none; }
 
